@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841630046259",
+    "project_id": "quiz-af36a",
+    "storage_bucket": "quiz-af36a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841630046259:android:a2b80de54acab2e61eeb46",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeWaRiXBZLQxmN_UJpkQqfu2EDYmS1Yo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

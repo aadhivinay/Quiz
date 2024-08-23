@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscreen">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mind"
+        android:label="Quiz"
+        android:roundIcon="@drawable/mind"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Splashscreen">
+
+        <!-- Declare activities here -->
+        <activity
+            android:name=".SubjectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.App.Splashscreen" />
+    </application>
+
+</manifest>
